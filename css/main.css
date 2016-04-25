@@ -1,0 +1,112 @@
+/**Available Fonts**/
+/**
+font-family: 'Philosopher', sans-serif;
+font-family: 'Chewy', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Architects Daughter', cursive;
+**/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	height: 100%;
+}
+
+.main-body-container{
+	position: relative;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(249, 249, 249);
+}
+
+.header-container{
+	width: 100%;
+	height: auto;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 3px;
+	background-color: rgb(111, 161, 0);
+}
+
+.page-header{
+	width: 80%;
+	height: 200px;
+	padding-top: 80px;
+	font-size: 30px;
+	color: white;
+	margin: 0 auto;
+	border-bottom: 3px solid rgb(135, 0, 82);
+	text-shadow: -2px -2px black, -2px 2px black, 2px 2px black, 2px -2px black;
+}
+
+.header-nav{
+	width: 80%;
+	height: auto;
+	background-color: rgb(111, 161, 0);
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.header-nav ul li{
+	display: inline;
+	list-style-type: none;
+}
+
+.header-nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: white;
+	text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.header-nav ul li a:hover{
+	background-color: rgb(137, 194, 10);
+}
+
+.header-nav ul li a:active{
+	background-color: rgb(88, 128, 0);
+}
+
+.main-content-container{
+	width: 80%;
+	height: auto;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.thumbnail{
+	width: 20%;
+	height: auto;
+	border: 7px double black;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: -3px 3px 3px black;
+	transition: box-shadow 2s;
+}
+
+.thumbnail:hover{
+	box-shadow: 0px 0px 0px gray;
+}
+
+.footer-container{
+	width: 100%;
+	height: auto;
+	background-color: rgb(135, 0, 82);
+	position: absolute;
+	bottom: 0;
+}
+
+.page-footer{
+	width: 80%;
+	height: 100px;
+	padding-top: 40px;
+	color: white;
+	margin: 0 auto;
+}
