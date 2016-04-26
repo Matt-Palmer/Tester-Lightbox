@@ -12,7 +12,7 @@
 	width: 30%;
 	height: auto;
 	border: 7px double black;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-bottom: 10px;
 	border-radius: 4px;
 	box-shadow: 3px 3px 3px black;
@@ -29,4 +29,10 @@
 
 .clearfix{
 	overflow: auto;
+}
+
+.image-description{
+	
+	font-family: 'Architects Daughter', cursive;
+	font-size: 16px;
 }

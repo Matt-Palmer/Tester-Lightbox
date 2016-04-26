@@ -73,10 +73,15 @@ body{
 	background-color: rgb(88, 128, 0);
 }
 
+.selected{
+
+	background-color: rgb(135, 0, 82);
+}
+
 .main-content-container{
 	width: 80%;
 	height: auto;
-	padding: 10px;
+	padding: 50px 10px;
 	margin: 0 auto;
 }
 
