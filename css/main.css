@@ -19,7 +19,7 @@ body{
 
 .main-body-container{
 	position: relative;
-	height: 100%;
+	height: auto;
 	text-align: center;
 	margin: 0 auto;
 	background-color: rgb(249, 249, 249);
@@ -99,8 +99,7 @@ body{
 	width: 100%;
 	height: auto;
 	background-color: rgb(135, 0, 82);
-	position: absolute;
-	bottom: 0;
+	clear: both;
 }
 
 .page-footer{
