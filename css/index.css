@@ -1,5 +1,4 @@
 .img-float-left{
-	float: left;
 	width: 30%;
 	height: auto;
 	border: 7px double black;
@@ -10,7 +9,6 @@
 }
 
 .img-float-right{
-	float: right;
 	width: 30%;
 	height: auto;
 	border: 7px double black;
@@ -18,22 +16,15 @@
 	margin-bottom: 10px;
 	border-radius: 4px;
 	box-shadow: 3px 3px 3px black;
+	order: 1;
 }
 
 .row{
+	display: flex;
 	width: 100%;
 	margin: 0 auto;
 	padding: 10px;
-}
-
-.p-float-left{
-	float: left;
-	width: 65%;
-}
-
-.p-float-right{
-	float: right;
-	width: 65%;
+	align-items: center;
 }
 
 .clearfix{
