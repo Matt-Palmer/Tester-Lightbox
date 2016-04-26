@@ -14,7 +14,7 @@
 	background-color: rgb(111, 161, 0);
 	border-radius: 4px;
 	box-shadow: -3px 3px 3px black;
-	padding: 40px;
+	padding: 20px;
 }
 
 label{
@@ -25,15 +25,25 @@ label{
 	font-family: 'Bangers', cursive;
 	text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
 	float: left;
-	padding: 5px;
+	padding: 5px 5px 5px 20px;
 }
 
 input{
 	display: block;
 	width: 350px;
-	height: 30px;
+	height: 40px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+	border-radius: 4px;
+	padding: 2px 5px;
+	border: 7px double black;
+	box-shadow: -3px 3px 3px black;
+	transition: box-shadow 2s;
+}
+
+input:focus{
+	outline: 0;
+	box-shadow: 0px 0px 0px gray;
 }
 
 textarea{
@@ -42,11 +52,20 @@ textarea{
 	height: 200px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+	border-radius: 4px;
+	padding: 2px 5px;
+	border: 7px double black;
+	box-shadow: -3px 3px 3px black;
+	transition: box-shadow 2s;
+}
+
+textarea:focus{
+	outline: 0;
+	box-shadow: 0px 0px 0px gray;
 }
 
 .button{
 	height: 45px;
-	border: none;
 	border-radius: 4px;
 	background-color: rgb(135, 0, 82);
 	letter-spacing: 3px;
@@ -60,6 +79,11 @@ textarea{
 }
 
 .button:hover{
+	outline: 0;
 	box-shadow: 0px 0px 0px gray;
 	background-color: rgb(108, 0, 66);
+}
+
+.button:focus{
+	outline: 0;
 }
