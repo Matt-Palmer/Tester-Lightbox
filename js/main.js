@@ -1,7 +1,7 @@
 
 $(document).ready(function($){
 
-	$('.header-nav a').each(function highlightSelectedListItem(index) {
+	$('.header-nav a, .side-nav a').each(function highlightSelectedListItem(index) {
         if(this.href.trim() == window.location){
             $(this).addClass("selected");
 
@@ -9,5 +9,16 @@ $(document).ready(function($){
         }
             
     });
+
+    var sn = $('.side-nav');
+
+    $(window).scroll(function(){
+        if( $(this).scrollTop() > 242){
+            sn.css('display','block');
+        }
+        else{
+            sn.css('display','none');
+        }
+    })
 
 });
